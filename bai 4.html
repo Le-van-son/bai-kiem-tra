@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai4</title>
+</head>
+<body>
+<script>
+    arr = [[1, 4, 5, 35, 48, 13], [1, 2, 5, 35, 6, 13]]
+    max = 1
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = 0; j < arr[i].length; j++) {
+            if (max<arr[i][j]) {
+                max=arr[i][j]
+            }
+        }
+    }
+    document.write(max)
+</script>
+</body>
+</html>
